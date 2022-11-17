@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'ESST-v10'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E0B31C3DF9E640ED8B17AE45B8CFE61A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2DD6502A65D4447EBF5F3037C6B6AA02 }}
           package: .

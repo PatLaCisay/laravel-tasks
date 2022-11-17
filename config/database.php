@@ -48,7 +48,7 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'esst-v10-server.mysql.database.azure.com'),
             'port' => env('DB_PORT', '3306'),
-            'database'  => env('DB_DATABASE', 'testlaravelesst-database'),
+            'database'  => env('DB_DATABASE', ''),
             'username'  => env('DB_USERNAME', 'EsstAdmin'),
             'password'  => env('DB_PASSWORD', '12A6248J4547NBSV$'),
             'unix_socket' => env('DB_SOCKET', ''),
